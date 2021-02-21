@@ -40,7 +40,7 @@ export const Content = styled.div`
 
       &:hover {
         color: ${shade(0.3, '#fff')};
-        border-bottom: 1px solid ${shade(0.3, '#fff')};
+        //border-bottom: 1px solid ${shade(0.3, '#fff')};
       }
     }
   }
@@ -48,10 +48,6 @@ export const Content = styled.div`
   > a {
     display: flex;
     align-content: center;
-
-    svg {
-      margin-right: 5px;
-    }
 
     margin-top: 40px;
 
